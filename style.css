@@ -12,6 +12,8 @@ body {
 }
 button {
   background-color: transparent;
+  font-size: 30px;
+  border-radius: 10px;
 }
 .btns {
   display: flex;
@@ -19,7 +21,7 @@ button {
   margin: 20px;
 }
 .dark {
-  border: 1px solid var(--textColor);
+  border: 2px solid var(--textColor);
   color: var(--textColor);
   display: block;
   padding: 5px;
@@ -29,7 +31,7 @@ button {
   display: none;
 }
 .light {
-  border: 1px solid var(--backgroundColor);
+  border: 2px solid var(--backgroundColor);
   color: var(--backgroundColor);
   display: none;
   padding: 5px;
