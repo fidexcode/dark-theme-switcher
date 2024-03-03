@@ -1,0 +1,45 @@
+:root {
+  --textColor: #000;
+  --backgroundColor: #fff;
+}
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+.darktheme {
+  background-color: var(--textColor);
+  color: var(--backgroundColor);
+}
+button {
+  background-color: transparent;
+}
+.btns {
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}
+.dark {
+  border: 1px solid var(--textColor);
+  color: var(--textColor);
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+.darktheme .dark {
+  display: none;
+}
+.light {
+  border: 1px solid var(--backgroundColor);
+  color: var(--backgroundColor);
+  display: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.darktheme .light {
+  display: block;
+}
+main {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
